@@ -4,13 +4,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 
 # Load the saved model
-model_path = r"C:\Users\Michael\Notebooks\IABAC\Michael_ Macharia_IABAC_Project INX Future Inc_performance_rating_prediction_model_Final Project\performance_rating_prediction_model.pkl"
-performance_rating_predictor = pickle.load(open(model_path, 'rb'))
-
-# Load the model using the correct file path
-
-
-# Your existing Streamlit app code continues here...
+performance_rating_predictor = pickle.load(open("performance_rating_prediction_model.pkl", 'rb'))
 
 
 # Input fields for the features
